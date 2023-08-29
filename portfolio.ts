@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Raymond Seas',
   title: "Hi, I'm Raymond Seas",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "-- description --",
   resumeLink:
     'https://drive.google.com/file/d/1tZfTuOykrOVdFy9LyJLkTiICveWW5pAr/view?usp=drive_link',
 };
@@ -30,9 +30,6 @@ export const socialLinks: SocialLinksType = {
   url: 'https://rseas.github.io/',
   linkedin: 'https://www.linkedin.com/in/raymondseas/',
   github: 'https://github.com/rseas',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -148,48 +145,7 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'logos:sentry-icon',
         },
       ],
-    },
-    {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          iconifyTag: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          iconifyTag: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          iconifyTag: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          iconifyTag: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          iconifyTag: 'logos:ganache-icon',
-        },
-      ],
-    },
+    }
   ],
 };
 
@@ -210,14 +166,15 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    schoolName: 'University of South Carolina',
+    subHeader: 'Bachelor of Science in Computer Science',
+    duration: 'August 2019 - May 2023',
+    desc: 'Included Coursework: Algorithmic Design, Computer Architecture, Unix/Linux Fundamentals, Data Structure & Algorithms, Advanced Programming Techniques, Operating Systems, Information Security Principles, Intro to Computer Networks, Information Security Principles',
+    grade: 'GPA: 3.918',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Recipient of the President’s Honor Roll in Spring 2020, Fall 2022 and Spring 2023',
+      'Dean\'s List recognition 2019-2022',
+      'Undergraduate Information Assurance Specialization 2023'
     ],
   },
 ];
@@ -259,38 +216,24 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'Grubber',
+    desc: 'Team project using React Native to develop Android application.',
+    github: 'https://github.com/SCCapstone/Mind404'
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'JobEstimator',
+    desc: 'IPad application geared toward allowing local contractor ARAC to provide clients with an accurate estimate on site.',
+    github: 'https://github.com/rseas/JobEstimator',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    name: 'WorkoutLog',
+    desc: 'MERN stack web application allowing users to track and view past workouts',
+    github: 'https://github.com/rseas/WorkoutLog',
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
-  },
-];
-
-export const feedbacks: FeedbackType[] = [
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+    name: 'MacroTracker',
+    desc: 'IN PROGRESS: IOS application allowing users to store and track their daily nutrition goals using React Native and Parse',
+    github: 'https://github.com/rseas/MacroTracker'
   },
 ];
 
@@ -299,19 +242,17 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Raymond Seas',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
+    'A passionate software developer/engineer.',
+  author: 'Raymond Seas',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  url: 'https://portfolio-rseas.vercel.app/',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Raymond',
+    'Raymond Seas',
+    '@rseas',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Raymond Seas Portfolio',
   ],
 };
