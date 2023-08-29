@@ -12,24 +12,24 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Raymond Seas',
+  title: "Hi, I'm Raymond Seas",
   description:
     "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://drive.google.com/file/d/1tZfTuOykrOVdFy9LyJLkTiICveWW5pAr/view?usp=drive_link',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'rseas',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
+  url: 'https://rseas.github.io/',
+  linkedin: 'https://www.linkedin.com/in/raymondseas/',
+  github: 'https://github.com/rseas',
   instagram: 'https://www.instagram.com/__hanzla100',
   facebook: 'https://www.facebook.com/1hanzla100',
   twitter: 'https://twitter.com/1hanzla100',
