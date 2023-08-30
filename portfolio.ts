@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Raymond Seas',
   title: "Hi, I'm Raymond Seas",
   description:
-    "-- description --",
+    "Computer Scientist",
   resumeLink:
     'https://drive.google.com/file/d/1tZfTuOykrOVdFy9LyJLkTiICveWW5pAr/view?usp=drive_link',
 };
@@ -33,52 +33,20 @@ export const socialLinks: SocialLinksType = {
 };
 
 export const skillsSection: SkillsSectionType = {
-  title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  title: 'Skills',
+  subTitle: 'Always looking for new ways to expand my knowledge',
   data: [
     {
       title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: '/lottie/skills/computer.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        'Experience building and deploying various web and mobile applications',
+        'Utilizing multiple backend services to support application'
       ],
       softwareSkills: [
         {
-          skillName: 'HTML-5',
-          iconifyTag: 'vscode-icons:file-type-html',
-        },
-        {
-          skillName: 'CSS-3',
-          iconifyTag: 'vscode-icons:file-type-css',
-        },
-        {
-          skillName: 'JavaScript',
-          iconifyTag: 'logos:javascript',
-        },
-        {
           skillName: 'Reactjs',
           iconifyTag: 'vscode-icons:file-type-reactjs',
-        },
-        {
-          skillName: 'Nextjs',
-          iconifyTag: 'vscode-icons:file-type-light-next',
-        },
-        {
-          skillName: 'Python',
-          iconifyTag: 'logos:python',
-        },
-        {
-          skillName: 'Django',
-          iconifyTag: 'vscode-icons:file-type-django',
-        },
-
-        {
-          skillName: 'Redux',
-          iconifyTag: 'logos:redux',
         },
         {
           skillName: 'NPM',
@@ -88,62 +56,97 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Yarn',
           iconifyTag: 'logos:yarn',
         },
+        {
+          skillName: 'JavaScript',
+          iconifyTag: 'logos:javascript',
+        },
+        {
+          skillName: 'Flutter',
+          iconifyTag: 'logos:flutter',
+        },
+        {
+          skillName: 'Nextjs',
+          iconifyTag: 'vscode-icons:file-type-light-next',
+        },
+        {
+          skillName: 'MongoDB',
+          iconifyTag: 'devicon:mongodb-wordmark',
+        },
+        {
+          skillName: 'Firebase',
+          iconifyTag: 'logos:firebase',
+        },
+
+        {
+          skillName: 'Parse',
+          iconifyTag: 'logos:parse',
+        },
       ],
     },
     {
-      title: 'Cloud Infra-Architecture',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
+      title: 'Programming Languages',
+      lottieAnimationFile: '/lottie/skills/pLang.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
-        emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
-        ),
-        emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
-        ),
+        'Ability to use multiple programming languages',
+        'Able to learn and pickup new languages quickly'
       ],
       softwareSkills: [
         // ? Check README To get icon details
         {
-          skillName: 'AWS',
-          iconifyTag: 'logos:aws',
+          skillName: 'Java',
+          iconifyTag: 'logos:java',
         },
         {
-          skillName: 'Azure',
-          iconifyTag: 'logos:microsoft-azure',
+          skillName: 'Python',
+          iconifyTag: 'logos:python',
         },
         {
-          skillName: 'Heroku',
-          iconifyTag: 'logos:heroku-icon',
+          skillName: 'JavaScript',
+          iconifyTag: 'logos:javascript',
         },
         {
-          skillName: 'PostgreSQL',
-          iconifyTag: 'logos:postgresql',
+          skillName: 'Cpp',
+          iconifyTag: 'vscode-icons:file-type-cpp',
         },
         {
-          skillName: 'Github',
-          iconifyTag: 'akar-icons:github-fill',
+          skillName: 'HTML-5',
+          iconifyTag: 'logos:html-5',
         },
         {
-          skillName: 'Docker',
-          iconifyTag: 'logos:docker-icon',
+          skillName: 'SQL',
+          iconifyTag: 'vscode-icons:file-type-sql',
+        }
+      ],
+    },
+    {
+      title: 'Operating Systems',
+      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
+      skills: [
+        'Experience with working on multiple OS platforms',
+        'Willing and able to learn new operating systems as necessary',
+      ],
+      softwareSkills: [
+        // ? Check README To get icon details
+        {
+          skillName: 'Windows',
+          iconifyTag: 'logos:microsoft-windows-icon',
         },
         {
-          skillName: 'Github Actions',
-          iconifyTag: 'logos:github-actions',
+          skillName: 'MacOS',
+          iconifyTag: 'logos:macos',
         },
         {
-          skillName: 'Cloudinary',
-          iconifyTag: 'logos:cloudinary',
+          skillName: 'Ubuntu Linux',
+          iconifyTag: 'logos:ubuntu',
         },
         {
-          skillName: 'Nginx',
-          iconifyTag: 'logos:nginx',
+          skillName: 'Linux Mint',
+          iconifyTag: 'logos:linux-mint',
         },
         {
-          skillName: 'Sentry',
-          iconifyTag: 'logos:sentry-icon',
-        },
+          skillName: 'Linux',
+          iconifyTag: 'logos:linux-tux',
+        }
       ],
     }
   ],
@@ -152,14 +155,18 @@ export const skillsSection: SkillsSectionType = {
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    progressPercentage: '80', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Backend',
-    progressPercentage: '70',
+    progressPercentage: '60',
   },
   {
     Stack: 'Programming',
+    progressPercentage: '70',
+  },
+  {
+    Stack: 'Networking',
     progressPercentage: '60',
   },
 ];
@@ -181,36 +188,29 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: 'Freelance App Developer',
+    company: '',
+    companyLogo: '/img/icons/common/rsLogo.png',
+    date: 'May 2023 – Present',
+    desc: 'I currently work for myself developing applications using React Native and Flutter coupled with various libraries.'
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
+    role: 'Carpenter Apprentice',
+    company: 'A & A Renovations and Construction LLC',
+    companyLogo: '/img/icons/common/aracLogo.jpg',
+    date: 'May 2022 – Present',
+    desc: 'I also work part time as a carpenter apprentice applying critical thinking and mathematical skills to divise solutions to various complex problems.',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
   },
   {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
-  },
-  {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    role: 'Floor Associate/Cashier',
+    company: 'Super Buy-Rite Liquors',
+    companyLogo: '/img/icons/common/superbuyRite.png',
+    date: 'July 2019 - August 2021',
+    desc: 'Worked both individually and in a team to effectively stock and serve customers needs, fostering effective communication and teamwork.',
   },
 ];
 
@@ -222,7 +222,7 @@ export const projects: ProjectType[] = [
   },
   {
     name: 'JobEstimator',
-    desc: 'IPad application geared toward allowing local contractor ARAC to provide clients with an accurate estimate on site.',
+    desc: 'IPad application for local contractor  to provide clients with an accurate estimate on-site.',
     github: 'https://github.com/rseas/JobEstimator',
   },
   {
@@ -238,7 +238,7 @@ export const projects: ProjectType[] = [
 ];
 
 // option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
+export const showContactUs: boolean = false;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {

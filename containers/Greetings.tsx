@@ -13,7 +13,7 @@ const Greetings = () => {
   return (
     <main>
       <div className="position-relative">
-        <section className="section section-lg section-shaped pb-250">
+        <section className="section section-lg section-shaped pb-150">
           <div className="shape shape-style-1 bg-gradient-blue">
             <span />
             <span />
@@ -26,13 +26,14 @@ const Greetings = () => {
             <span />
           </div>
           <Container className="py-lg-md d-flex">
-            <div className="col px-0">
+            <div className="col ">
               <Row>
                 <Col lg="6">
                   <h1 className="display-3 text-white">
                     {greetings.title + ' '}
                   </h1>
                   <p className="lead text-white">{greetings.description}</p>
+                  <p className="lead text-white">Eager to learn, determined to progress, and actively seeking employment.</p>
                   <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
@@ -50,7 +51,7 @@ const Greetings = () => {
                   )}
                 </Col>
                 <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding.json" />
+                  <GreetingLottie animationPath="/lottie/intro.json" />
                 </Col>
               </Row>
             </div>

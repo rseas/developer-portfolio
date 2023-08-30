@@ -11,11 +11,11 @@ const Experience = () => {
           <div className="d-flex p-4">
             <div>
               <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                <i className="ni ni-briefcase-24 text-info" />
+                <i className="ni ni-briefcase-24 text-blue" />
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-3 text-info">Experience</h4>
+              <h4 className="display-3 text-blue">Experience</h4>
             </div>
           </div>
           <Row className="row-grid align-items-start">
