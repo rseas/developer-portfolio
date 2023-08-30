@@ -237,6 +237,13 @@ export const projects: ProjectType[] = [
   },
 ];
 
+export const feedbacks: FeedbackType[] = [
+  {
+    name: '',
+    feedback:''
+  },
+];
+
 // option to hide or show the ContactUs component
 export const showContactUs: boolean = false;
 
